@@ -444,7 +444,7 @@ function App() {
             <div className="relative">
               <div className="aspect-square bg-zinc-900 border border-gray-800 overflow-hidden">
                 <img
-                  src="img/EquipoIA.jpg"
+                  src={`${import.meta.env.BASE_URL}image.png`}
                   alt="Equipo The Infama IA"
                   className="w-full h-full object-cover"
                 />
