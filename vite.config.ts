@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 // 💡 AÑADE esta línea con el nombre exacto de tu repositorio
-const REPO_NAME = '/InicioproyectoIA/';
+const REPO_NAME = '/AGENCIA-IA-INFAMA/';
 
 export default defineConfig({
   plugins: [react()],
