@@ -2,8 +2,13 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
+// 💡 AÑADE esta línea con el nombre exacto de tu repositorio
+const REPO_NAME = '/InicioproyectoIA/';
+
 export default defineConfig({
   plugins: [react()],
+  // Configuración de la ruta base para GitHub Pages
+  base: process.env.NODE_ENV === 'production' ? REPO_NAME : '/',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
